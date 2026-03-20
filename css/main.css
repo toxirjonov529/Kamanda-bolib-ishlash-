@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  max-width: 1840px;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 20px;
+  position: relative;
+  margin: 0 auto;
+}
+.header .container {
+  width: 1189px;
+  height: 758px;
+  position: absolute;
+  left: 40px;
+}
+.header .orqa-rasm {
+  position: absolute;
+  z-index: -1;
+  width: 1440px;
+  height: 1040px;
+  opacity: 1;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 702.6461181641px;
+  height: 50px;
+  top: 43px;
+  left: 157px;
+  position: absolute;
+  opacity: 1;
+}
+.header .navbar .logativ {
+  width: 189px;
+  height: 50px;
+  gap: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 1px;
+}
+.header .navbar .logo {
+  color: #FFFFFF;
+  font-size: 23px;
+}
+.header .nav-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav-leftiy {
+  display: flex;
+  gap: 30px;
+  width: 702.6461181641px;
+  align-items: center;
+  height: 50px;
+  position: absolute;
+  left: 220px;
+  color: #ffffff;
+}
+.header .location {
+  width: 375px;
+  height: 54px;
+  border: 2px solid white;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 1px;
+  padding-top: 17px;
+}
+.header .nav-right {
+  display: flex;
+}
+.header .lakatsya {
+  position: absolute;
+  left: -20px;
+}
+.header .tel {
+  position: absolute;
+  left: 380px;
+}
+.header .lang-switcher {
+  position: absolute;
+  width: 160px;
+  left: 970px;
+  top: 18px;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+}
