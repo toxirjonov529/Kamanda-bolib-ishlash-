@@ -1,1 +1,0 @@
-# Kamanda-bolib-ishlash-
